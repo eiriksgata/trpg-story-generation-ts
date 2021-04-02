@@ -1,0 +1,13 @@
+/* navbar */
+.nav .nav-item {
+  font-size: 1rem;
+}
+.nav .nav-item > .nav-link {
+  color: #4b566b;
+  transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out,
+    box-shadow 0.25s ease-in-out, border-color 0.25s ease-in-out;
+}
+.nav .nav-item > .nav-link:hover,
+.nav .nav-item > .nav-link.active {
+  color: #fe696a;
+}

@@ -1,0 +1,98 @@
+@import "./badge.css";
+@import "./border.css";
+@import "./button.css";
+@import "./dropdown.css";
+@import "./nav.css";
+@import "./ribbon.css";
+@import "./scrollbar.css";
+@import "./element-ui.css";
+
+html,
+body,
+#app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+body {
+  font-size: 0.875rem;
+  color: rgb(73, 80, 87);
+  background-color: rgb(245, 249, 252);
+  /* color: #6c757d; */
+  /* background-color: #fafbfe; */
+  /* font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB",
+    "Microsoft YaHei", "微软雅黑", Arial, sans-serif; */
+}
+.container {
+  min-width: 1200px;
+}
+
+::placeholder,
+::-webkit-input-placeholder {
+  color: lightgray !important;
+}
+
+.badge {
+  font-size: 87.5%;
+}
+
+/* alert style */
+.alert {
+  padding: 0.45rem 1.25rem;
+}
+
+/* card style */
+.card {
+  border: none;
+  border-radius: 0.25rem;
+  /* box-shadow: 0 0 35px 0 rgba(154, 161, 171, 0.15); */
+  box-shadow: rgba(53, 64, 82, 0.05) 0px 0px 0.875rem 0px;
+}
+.card-header {
+  border: none;
+  background-color: #fff;
+}
+
+/* link style */
+.link {
+  color: #39afd1;
+  text-decoration: none;
+  background-color: transparent;
+}
+.link:hover {
+  cursor: pointer;
+  color: #727cf5;
+  text-decoration: none;
+}
+
+/* sweetalert2 style */
+.swal2-title {
+  font-size: 0.875rem !important;
+}
+.swal2-content {
+  font-size: 0.875rem !important;
+  font-weight: bold !important;
+  color: #247086 !important;
+}
+
+/* self bootstrap style */
+label {
+  margin-bottom: 0rem;
+}
+
+/* vue animation */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.25s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+/* 隐藏浏览器input tpye=number上下箭头 */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

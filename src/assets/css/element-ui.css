@@ -1,0 +1,42 @@
+/* form element */
+.el-textarea__inner,
+.el-input__inner,
+.el-select .el-input__inner {
+  border-radius: 0.25rem !important;
+}
+.el-checkbox__input {
+  line-height: inherit !important;
+}
+.el-select .el-input.is-focus .el-input__inner,
+.el-textarea__inner:focus,
+.el-input__inner:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.el-form-item__label {
+  color: #7d899b !important;
+}
+.el-input-number__decrease.is-disabled {
+  cursor: pointer !important;
+}
+.el-input.is-disabled .el-input__icon,
+.el-input.is-disabled .el-input__inner {
+  cursor: default !important;
+}
+.el-select-dropdown__wrap {
+  max-height: 500px !important;
+}
+
+/* cascader */
+.el-cascader-menu__wrap {
+  height: auto !important;
+  max-height: 500px !important;
+}
+
+/* tooltip */
+.el-tooltip__popper.is-dark {
+  opacity: 0.65;
+}

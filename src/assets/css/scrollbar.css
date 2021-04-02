@@ -1,0 +1,43 @@
+/*滚动条整体部分,必须要设置*/
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background-color: #ccc;
+}
+/*滚动条的上下两端的按钮*/
+::-webkit-scrollbar-button {
+  display: none;
+}
+/*滚动条的外层轨道*/
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+  background-color: #ccc;
+}
+/*滚动条内层轨道中间部分*/
+::-webkit-scrollbar-track-piece {
+  background: #fff;
+}
+/*滚动条的滑块按钮*/
+::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background-color: #ccc;
+  /* box-shadow: inset 0 0 5px #000; */
+}
+/*边角*/
+::-webkit-scrollbar-corner {
+  background: #ccc;
+}
+/*定义右下角拖动块的样式*/
+::-webkit-scrollbar-resizer {
+  background: #ccc;
+}
+:root {
+  scrollbar-arrow-color: #f4ae21; /*三角箭头的颜色*/
+  scrollbar-face-color: #333; /*立体滚动条的颜色*/
+  scrollbar-3dlight-color: #666; /*立体滚动条亮边的颜色*/
+  scrollbar-highlight-color: #666; /*滚动条空白部分的颜色*/
+  scrollbar-shadow-color: #999; /*立体滚动条阴影的颜色*/
+  scrollbar-darkshadow-color: #666; /*立体滚动条强阴影的颜色*/
+  scrollbar-track-color: #666; /*立体滚动条背景颜色*/
+  scrollbar-base-color: #f8f8f8; /*滚动条的基本颜色*/
+}
